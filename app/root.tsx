@@ -9,12 +9,17 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import blueprintJS from "@blueprintjs/core/lib/css/blueprint.css";
+import blueprintJSIcons from "@blueprintjs/icons/lib/css/blueprint-icons.css";
 
 export const links: LinksFunction = () => [
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
   {
     rel: "stylesheet",
     href: blueprintJS
+  },
+  {
+    rel: "stylesheet",
+    href: blueprintJSIcons
   }
 ];
 

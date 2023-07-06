@@ -32,7 +32,7 @@ export default function Index() {
           >
             Deep Dive Jokes App Tutorial
             <Button icon="download">Hello</Button>
-            <Button icon={<Icon icon="download" />}>Hello</Button>
+            <Button icon={<Icon icon="download" size={16} />}>Hello</Button>
           </a>
         </li>
         <li>
