@@ -31,8 +31,8 @@ export default function Index() {
             rel="noreferrer"
           >
             Deep Dive Jokes App Tutorial
-            <Button icon="download">Hello</Button>
-            <Button icon={<Icon icon="download" size={16} />}>Hello</Button>
+            <Button icon="download">Download</Button>
+            <Button icon={<Icon icon="search" size={16} />}>Search</Button>
           </a>
         </li>
         <li>
